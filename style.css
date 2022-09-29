@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+#form_sub{
+    width: 30%;
+    margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  padding: 60px 30px;
+  border-radius: 15px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+input {
+  margin-bottom: 5%;
+  padding: 10px;
+}
+
+#navbar {
+    display: flex;
+    align-items: flex-start;
+    background-color: gray;
+    color: aliceblue;
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  table {
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+  th {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+  }
+  tbody {
+    padding: 15px;
+    text-align: center;
+    color: black;
+  }
+  table .update{
+    color: white;
+    background-color: orange;
+    border: none;
+    padding: 10px 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  table .remove{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+ #submit{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  select{
+    margin-bottom: 5%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  #main{
+    display: flex;
+    justify-content: space-around;
+  }
+  #sort_filter{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #filter_course{
+    width: 100%;
+    height: 40px;
+    margin-top: 26px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  #sorting button{
+    height: 40px;
+    padding: 12px 8px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: darkslategrey;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  tr{
+    font-size: 18px;
+  }
+  tr:hover {
+    background-color: coral;
+    
+}
+#sorting h3{
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+#btns{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+#btns button{
+  padding: 4px 8px;
+  margin: 0px 8px;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+#btns button:hover{
+  background-color: darkgoldenrod;
+  color: white;
+}

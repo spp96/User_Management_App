@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <h1>User Management System</h1>
+      </div>
+      <div id="sort_filter">
+        <div id="sorting">
+          <h3>Sort By</h3>
+          <button id="sortinglh" onclick="sortLH()">Age Low To High</button>
+          <button id="sortinghl" onclick="sortHL()">Age High To Low</button>
+        </div> 
+        <div>
+          <select name="c" id="filter_course"  onchange="filter()">
+            <option value="">Filter By Courses</option>
+            <option value="JS-101">JS-101</option>
+            <option value="Web-101">Web-101</option>
+            <option value="Web-111">Web-111</option>
+            <option value="JS-201">JS-201</option>
+            <option value="JS-211">JS-211</option>
+            <option value="JA-111">JA-111</option>
+            <option value="RCT-101">RCT-101</option>
+          </select>
+        </div> 
+       
+      </div>
+      <div id="main">
+        <div id="form_sub">
+            <form action="">
+                <input type="text" name="" id="name" placeholder="Enter Your Name">
+                <select name="batch" id="batch">
+                    <option value="">Select Batch</option>
+                    <option value="Web-16">Web-16</option>
+                    <option value="Web-17">Web-17</option>
+                    <option value="Web-18">Web-18</option>
+                    <option value="Web-19">Web-19</option>
+                    <option value="Web-19">Web-20</option>
+                  </select>
+                  <select name="course" id="course">
+                    <option value="">Select Course</option>
+                    <option value="JS-101">JS-101</option>
+                    <option value="Web-101">Web-101</option>
+                    <option value="Web-111">Web-111</option>
+                    <option value="JS-201">JS-201</option>
+                    <option value="JS-211">JS-211</option>
+                    <option value="JA-111">JA-111</option>
+                    <option value="RCT-101">RCT-101</option>
+                  </select>
+                <input type="number" name="" id="age" placeholder="Enter Your Age">
+                <input type="tel" name="" id="mobile" placeholder="Enter Your Mobile">
+                <input type="number" name="" id="escore" placeholder="Enter Your Score">       
+                <button id="submit" onclick="addDetails(event)">Submit</button>
+            </form>
+           
+        </div>
+        <table>
+            <thead>
+              <th>Name</th>
+              <th>Batch</th>
+              <th>Course</th>
+              <th>Age</th>
+              <th>Mobile No.</th>
+              <th>Evaluation Score</th>
+              <th>Edit-Score</th>
+              <th>Delete</th>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+      </div>  
+      <div id="btns"></div> 
+</body>
+</html>
+<script src="main.js"></script>
